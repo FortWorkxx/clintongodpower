@@ -1,4 +1,28 @@
-# clintongodpower
+# CGI Marine website
+
+A responsive, dependency-free HTML, CSS and JavaScript site for Clinton Global Investment.
+
+## Run locally
+
+```sh
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000`. Serve the files over HTTP rather than opening `index.html` directly so the SVG icons load. To deploy, publish the repository’s site files to a static host with HTTPS.
+
+## Site features
+
+- One-page company site covering services, outboard engines, maintenance, company values, gallery, FAQs, contact and quote requests.
+- The quote form validates input and opens WhatsApp with a draft to review and send. There is no form submission backend, customer database, booking system or payment integration.
+- The map link points to Port Harcourt, not a specific business address. The gallery uses generated illustrations, not project or staff photos.
+
+## Before going live
+
+- Confirm the email, business address, opening hours, service scope and supported brands. Replace illustrative images with approved company photography where available. Add testimonials and social links only after verifying them.
+- Review the privacy notice and confirm the deployed domain before adding canonical URLs and an absolute-URL sitemap.
+
+---
+
 # **CLINTON GLOBAL INVESTMENT – Premium Marine Business Website**
 
 Let's build **Clinton Global Investment (CGI)** into a professional marine business website that looks like an established marine engineering, boat services and outboard engine company.
